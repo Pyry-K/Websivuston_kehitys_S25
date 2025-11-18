@@ -218,8 +218,10 @@ background-size: 100% 100%;
 
 .grid-item {
   background-color: #4e9577;
+  background-repeat: no-repeat;
   font-family: "arial black";
-  padding: 20px;
+  background-size: 100% 100%;
+  padding: 100px;
   text-align: center;
 }
 .responsive-box {
