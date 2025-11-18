@@ -135,9 +135,11 @@ td {
 .animation-box {
   width: 50px;
   height: 50px;
-  background-color: #4e9577;
+  background-image: url("https://media1.tenor.com/m/2sq_zPCNSI0AAAAd/mordekaiser-viego.gif");
+background-size: 100% 100%;
+  background-repeat: no-repeat;
   position: relative;
-  animation: move 2s infinite alternate;
+  animation: move 3s infinite alternate;
 }
 
 @keyframes move {
@@ -147,6 +149,8 @@ td {
   to {
     left: 100px;
   }
+
+
 }
 .pseudo-list li:nth-child(odd) {
   background-color: #4e9577;
@@ -207,32 +211,32 @@ td {
   font-family: "arial black";
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-  }
-  
-  .grid-item {
-    background-color: #4e9577;
-    font-family: "arial black";
-    padding: 20px;
-    text-align: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: #4e9577;
+  font-family: "arial black";
+  padding: 20px;
+  text-align: center;
+}
 .responsive-box {
-    padding: 20px;
-    font-family: "arial black";
-    color: white;
-    text-align: center;
+  padding: 20px;
+  font-family: "arial black";
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+    background-color: #535353;
   }
-  
-  @media (max-width: 600px) {
-    .responsive-box {
-      background-color: #535353;
-    }
+}
+
+@media (min-width: 601px) {
+  .responsive-box {
+    background-color: #4e9577;
   }
-  
-  @media (min-width: 601px) {
-    .responsive-box {
-      background-color: #4e9577;
-    }
-  }
+}
