@@ -338,25 +338,30 @@ td {
   font-family: "arial black";
   color: #4e9577;
 }
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-.active, .collapsible:hover {
-  background-color: #ccc;
+
+.counter {
+  text-align: center;
+  display: inline-flex;
+  margin: 10px;
+  font-family: "arial black";
+  color: #4e9577;
+  padding: 20px;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
+.counter img {
+  width: 150px;
+  cursor: pointer;
+  max-height: 219px;
+}
+
+.counter-text {
   display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
+  background: #535353;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-family: "arial black";
+  width: 150px;
+  max-height: 199px;
 }

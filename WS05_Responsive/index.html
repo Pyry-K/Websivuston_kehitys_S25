@@ -168,28 +168,23 @@
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
       ></iframe>
-      <div class="responsive-box-s">COUNTERS:</div>
-      <div class="flex-container">
-        <div
-          style="
-            background-image: url(https://static.bigbrain.gg/assets/lol/riot_static/15.23.1/img/champion/Singed.webp);
-          "
-          class="box"
-                    onclick="myFunction()"
-        ></div>
-        <div
-          style="
-            background-image: url(https://static.bigbrain.gg/assets/lol/riot_static/15.23.1/img/champion/Vayne.webp);
-          "
-          class="box"
-        ></div>
-        <div
-          style="
-            background-image: url(https://static.bigbrain.gg/assets/lol/riot_static/15.23.1/img/champion/Jax.webp);
-          "
-          class="box"
-        ></div>
-      </div>
+      <div class="responsive-box-s">COUNTERS: click to reveal</div>
+
+<div class="responsive-box">
+<div class="counter">
+    <img src="https://static.bigbrain.gg/assets/lol/riot_static/15.23.1/img/champion/Singed.webp" onclick="toggleText(this)">
+    <div class="counter-text">Singed is good into Mordekaiser because he can kite him endlessly and ignore his damage with high mobility.</div>
+</div>
+<div class="counter">
+    <img src="https://static.bigbrain.gg/assets/lol/riot_static/15.23.1/img/champion/Vayne.webp" onclick="toggleText(this)">
+    <div class="counter-text">Vayne is effective against Mordekaiser due to her true damage and mobility, allowing her to outmaneuver.</div>
+</div>
+<div class="counter">
+    <img src="https://static.bigbrain.gg/assets/lol/riot_static/15.23.1/img/champion/Jax.webp" onclick="toggleText(this)">
+    <div class="counter-text">Jax counters Mordekaiser with his ability to dodge basic attacks and scale into a late-game powerhouse.</div>
+</div>
+</div>
+
       <div class="responsive-box-s">SKINS:</div>
       <div class="grid-container">
         <div
